@@ -13,6 +13,7 @@ group :development , :test do
   gem 'guard-rspec', '0.5.5'
   gem 'annotate'
   gem 'bcrypt-ruby', '3.0.0'
+  gem 'factory_girl_rails', '1.4.0'
 
 end 
 

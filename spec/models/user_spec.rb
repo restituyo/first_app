@@ -15,7 +15,7 @@ describe User do
   it { should respond_to(:authenticate) }
 
   it { should be_valid }
-
+  
   describe "when name is not present" do
   	before { @user.name = " " }
   	it { should_not be_valid }
