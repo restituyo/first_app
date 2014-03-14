@@ -41,6 +41,11 @@ describe "User Pages" do
 
   		it "should create a user" do
   			expect { click_button submit }.to change(User, :count).by(1)
+
+      describe "after saving user" do
+
+     
+      end
   		end
   	end
   end
