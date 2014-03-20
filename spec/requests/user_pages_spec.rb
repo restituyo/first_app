@@ -31,7 +31,7 @@ describe "User Pages" do
   		end
   	end
 
-  	describe "with valid information" do
+    describe "with valid information" do
   		before do
   			fill_in "Name",		with: "Byron"
   			fill_in "Email",  with: "richardjosephoreily@gmail.com"
@@ -41,12 +41,15 @@ describe "User Pages" do
 
   		it "should create a user" do
   			expect { click_button submit }.to change(User, :count).by(1)
-
-      describe "after saving user" do
-
-     
       end
-  		end
+
+
+        describe "with invalid information" do
+          before { click_button "Save changes" }
+
+        
+        end
+      end
   	end
-  end
 end
+
