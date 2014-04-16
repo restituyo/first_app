@@ -6,6 +6,7 @@ gem 'faker', '1.0.1'
 gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
 
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -17,6 +18,7 @@ group :development , :test do
   gem 'annotate'
   gem 'bcrypt-ruby', '3.0.0'
   gem 'factory_girl_rails', '1.4.0'
+  gem 'sqlite3'
 
 end 
 
@@ -37,7 +39,6 @@ gem 'jquery-rails'
 
 group :test do
 	gem 'capybara', '1.1.2'
-	gem 'rspec-rails', '2.9.0'
 	gem 'rb-fsevent'
 	gem 'growl', '1.0.3'
 end
