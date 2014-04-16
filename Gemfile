@@ -13,7 +13,7 @@ gem 'pg'
 
 group :development , :test do
   
-  gem 'sqlite3'
+  
   gem 'rspec-rails', '2.9.0'
   gem 'guard-rspec', '0.5.5'
   gem 'annotate'
